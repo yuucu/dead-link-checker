@@ -160,5 +160,5 @@ function printLinkList(fileLinkList) {
       file.linkList.map ( link => {
         return "  - l" + link.line_num + ": "  + link.link
       }).join("<br/>")
-  }).join("<br/>")
+  }).join("<br/><br/>")
 }

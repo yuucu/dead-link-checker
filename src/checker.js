@@ -1,5 +1,4 @@
-window.$ = window.jQuery = require('jquery'); // not sure if you need this at all
-window.Bootstrap = require('bootstrap');
+window.$ = window.jQuery = require('./lib/jquery-3.5.1.min.js');
 
 async function scanFiles(entry, tmpObject) {
   switch (true) {

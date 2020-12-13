@@ -3,11 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "main.js",
-  "dependencies": {
-    "electron": "^11.1.0"
-  },
+  "dependencies": {},
   "devDependencies": {
-    "electron-builder": "^22.9.1",
+    "electron": "^11.1.0",
     "electron-packager": "^15.1.0",
     "jquery": "^3.5.1"
   },
